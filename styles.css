@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.come/css?family=Mukta');
+body {
+    margin: 0px;
+    font-family: "Mukta";
+    background: #313131;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.tools .button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+color-pciker {
+    align-self: center;
+    margin: 0 10px;
+    height: 50px;
+}
+
+#pen-range {
+    align-self: center;
+    margin: 0 15px;
+}
+
+#brush-range {
+    align-self: center;
+    margin: 0 15px;
+}
+
+canvas {
+    box-shadow: -3px 2px 9px 6px;
+    cursor: pointer;
+}
+
+
+/* HIDE RADIO */
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* IMAGE STYLES */
+
+[type=radio]+img {
+    cursor: pointer;
+}
+
+
+/* CHECKED STYLES */
+
+[type=input]:checked+img {
+    outline: 2px solid #000000;
+}
+
+i {
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+    width: 80px;
+}
+
+li,
+label {
+    cursor: pointer;
+}
+
+li:hover,
+input:hover {
+    background-color: #F8F4F1;
+}
